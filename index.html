@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruits Brust</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- daisy ui css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.7.5/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      .font-lato {
+        font-family: "Lato", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="font-lato">
+    <!-- header -->
+    <header>
+      <div class="container w-[1440px] mx-auto">
+        <div
+          class="navbar bg-[#F85559] rounded-[600px] py-8 pr-[50px] pl-[60px]"
+        >
+          <div class="navbar-start">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li><a class="text-lg">Home</a></li>
+                <li><a class="text-lg">About Us</a></li>
+                <li><a class="text-lg">Shop</a></li>
+                <li><a class="text-lg">All Fruits</a></li>
+              </ul>
+            </div>
+            <!-- <a class="btn btn-ghost normal-case text-xl">daisyUI</a> -->
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a class="text-lg">Home</a></li>
+                <li><a class="text-lg">About Us</a></li>
+                <li><a class="text-lg">Shop</a></li>
+                <li><a class="text-lg">All Fruits</a></li>
+              </ul>
+            </div>
+          </div>
+          <a href="#">
+            <img src="assets/images/logos.png" alt="" />
+          </a>
+          <div class="navbar-end">
+            <input
+              type="text"
+              class="bg-white rounded-[50px] h-[56px] pr-4 pl-7 focus:outline-0 w-[400px]"
+              placeholder="Search here"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header -->
+
+    <!-- script -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
